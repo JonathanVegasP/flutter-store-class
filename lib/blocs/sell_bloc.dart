@@ -10,9 +10,7 @@ class SellBloc {
   var int;
   var producst;
   
-  final addProduto = (produto) {
-    
-  }
+
   
   _addProduto(produto) {
     
@@ -28,8 +26,7 @@ class SellBloc {
   Function(List) get inProducts => _productsSelected.add;
 
   void dispose() {
-    addProduto(producst);
-    _addProduto(producst)
+
     _productsSelected.close();
   }
 }
